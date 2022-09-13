@@ -7,14 +7,14 @@ public class Baker
 
     public Baker()
     {
-        numPizzas = 0;
+        this.numPizzas = 0;
     }
 
     public CS331Pizza makeMushroom()
     {
         CS331Pizza pizza = new CS331Pizza();
         pizza.addMushrooms();
-        numPizzas++;
+        this.numPizzas++;
         return pizza;
     }
 
@@ -22,7 +22,7 @@ public class Baker
     {
         CS331Pizza pizza = new CS331Pizza();
         pizza.addPineapple();
-        numPizzas++;
+        this.numPizzas++;
         return pizza;
     }
 
@@ -30,7 +30,7 @@ public class Baker
     {
         CS331Pizza pizza = new CS331Pizza();
         pizza.addSpinach();
-        numPizzas++;
+        this.numPizzas++;
         return pizza;
     }
 

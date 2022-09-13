@@ -18,10 +18,8 @@ public class PizzaShop extends PizzaShopHelper{
     public PizzaShop() 
     {
         super();
-
         //this initializes our instance variable "toppings"
         this.toppings = new CS331Toppings();
-        
     }
 
     /**
