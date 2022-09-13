@@ -12,26 +12,26 @@ public class Baker
 
     public CS331Pizza makeMushroom()
     {
-        CS331Pizza pizzaBaker = new CS331Pizza();
-        pizzaBaker.addMushrooms();
+        CS331Pizza pizza = new CS331Pizza();
+        pizza.addMushrooms();
         numPizzas++;
-        return pizzaBaker;
+        return pizza;
     }
 
     public CS331Pizza makePineapple()
     {
-        CS331Pizza pizzaBaker = new CS331Pizza();
-        pizzaBaker.addPineapple();
+        CS331Pizza pizza = new CS331Pizza();
+        pizza.addPineapple();
         numPizzas++;
-        return pizzaBaker;
+        return pizza;
     }
 
     public CS331Pizza makeSpinach()
     {
-        CS331Pizza pizzaBaker = new CS331Pizza();
-        pizzaBaker.addSpinach();
+        CS331Pizza pizza = new CS331Pizza();
+        pizza.addSpinach();
         numPizzas++;
-        return pizzaBaker;
+        return pizza;
     }
 
     public String bakerUpdate()
