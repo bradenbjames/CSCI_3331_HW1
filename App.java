@@ -8,7 +8,7 @@ public class App extends Application {
     public void start(Stage stage) throws Exception {
         // This sets up the empty GUI (Graphical User Interface) frame!
         new CS331PizzaFrame(stage);
-        new PizzaShop().displayShopUpdate("We are open for business!");
+        new PizzaShop().displayShopUpdate("We are open for business");
         
 
         // TODO Instantiate the PizzaShop here

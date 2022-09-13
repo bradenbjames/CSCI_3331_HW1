@@ -14,6 +14,12 @@ public class PizzaShop extends PizzaShopHelper{
      * This is the constructor of the PizzaShop class. You should initialize all your instalce variables here,
      * and be sure to open shop!
      */
+    private int numPizzas1;
+    private int numPizzas2;
+    private int numPizzas3;
+    private int numPizzas4;
+    
+    
 
     public PizzaShop() 
     {
@@ -33,7 +39,9 @@ public class PizzaShop extends PizzaShopHelper{
         Baker baker = new Baker();
         CS331Pizza pizza = baker.makeMushroom();
         displayPrice(pizza);
-        displayShopUpdate(baker.bakerUpdate());
+        numPizzas1++;
+        System.out.println(numPizzas1);        
+        displayShopUpdate(String.valueOf(numPizzas1));
     }
 
     /**
@@ -47,7 +55,8 @@ public class PizzaShop extends PizzaShopHelper{
         CS331Pizza pizza = baker.makePineapple();
         toppings.addPeppers(pizza);
         displayPrice(pizza);
-        displayShopUpdate(baker.bakerUpdate());
+        numPizzas2++;
+        displayShopUpdate(String.valueOf(numPizzas2));
     }
 
     /**
@@ -62,7 +71,8 @@ public class PizzaShop extends PizzaShopHelper{
         toppings.addPeppers(pizza);
         toppings.addTomatoes(pizza);
         displayPrice(pizza);
-        displayShopUpdate(baker.bakerUpdate());
+        numPizzas3++;
+        displayShopUpdate(String.valueOf(numPizzas3));
     }
 
     /**
@@ -77,6 +87,7 @@ public class PizzaShop extends PizzaShopHelper{
         toppings.addPeppers(pizza);
         toppings.addTomatoes(pizza);
         displayPrice(pizza);
-        displayShopUpdate(baker.bakerUpdate());
+        numPizzas4++;
+        displayShopUpdate(String.valueOf(numPizzas4));
     }
 }
