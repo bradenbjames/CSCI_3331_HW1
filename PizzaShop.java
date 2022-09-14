@@ -15,7 +15,9 @@ public class PizzaShop extends PizzaShopHelper{
      * and be sure to open shop!
      */
 
-
+    /**
+     * Declare Baker Variable
+     */
     Baker baker;
     
     public PizzaShop() 
@@ -36,7 +38,7 @@ public class PizzaShop extends PizzaShopHelper{
     {
         CS331Pizza pizza = baker.makeMushroom();
         displayPrice(pizza);
-        displayShopUpdate(baker.bakerUpdate());
+        displayShopUpdate(baker.workUpdate());
     }
 
     /**
@@ -49,7 +51,7 @@ public class PizzaShop extends PizzaShopHelper{
         CS331Pizza pizza = baker.makePineapple();
         toppings.addPeppers(pizza);
         displayPrice(pizza);
-        displayShopUpdate(baker.bakerUpdate());
+        displayShopUpdate(baker.workUpdate());
     }
 
     /**
@@ -63,7 +65,7 @@ public class PizzaShop extends PizzaShopHelper{
         toppings.addPeppers(pizza);
         toppings.addTomatoes(pizza);
         displayPrice(pizza);
-        displayShopUpdate(baker.bakerUpdate());
+        displayShopUpdate(baker.workUpdate());
     }
 
     /**
@@ -77,6 +79,6 @@ public class PizzaShop extends PizzaShopHelper{
         toppings.addPeppers(pizza);
         toppings.addTomatoes(pizza);
         displayPrice(pizza);
-        displayShopUpdate(baker.bakerUpdate());
+        displayShopUpdate(baker.workUpdate());
     }
 }

@@ -6,14 +6,6 @@
     "configurations": [
         {
             "type": "java",
-            "name": "Launch App",
-            "request": "launch",
-            "mainClass": "App",
-            "projectName": "CSCI_3331_HW1_ecc2cb9d",
-            "vmArgs": "--module-path C:/Users/brade/Downloads/openjfx-19_windows-x64_bin-sdk/javafx-sdk-19/lib --add-modules javafx.controls,javafx.fxml"
-        },
-        {
-            "type": "java",
             "name": "Launch Current File",
             "request": "launch",
             "mainClass": "${file}"
@@ -23,7 +15,7 @@
             "name": "Launch App",
             "request": "launch",
             "mainClass": "App",
-            "projectName": "HW1_5f1f5115",
+            "projectName": "CSCI_3331_HW1_7f60c563",
             "vmArgs": "--module-path C:/Users/brade/Downloads/openjfx-19_windows-x64_bin-sdk/javafx-sdk-19/lib --add-modules javafx.controls,javafx.fxml"
         }
     ]

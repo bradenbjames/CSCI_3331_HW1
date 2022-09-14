@@ -3,12 +3,12 @@ import pizzaHelper.CS331Toppings;
 
 public class Baker 
 {
-    static int numPizzas;
+    private int numPizzas;
+
     public Baker()
     {
         this.numPizzas = 0;
     }
-    
     
     public CS331Pizza makeMushroom()
     {
@@ -35,9 +35,9 @@ public class Baker
     }
 
     
-    public String bakerUpdate()
+    public String workUpdate()
     {
-        return "Baker's Pizza Count: " + numPizzas;
+        return "The baker has made " + numPizzas + " pizzas";
     }
     
 }
