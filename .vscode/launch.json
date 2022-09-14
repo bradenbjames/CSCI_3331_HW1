@@ -6,6 +6,14 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch App",
+            "request": "launch",
+            "mainClass": "App",
+            "projectName": "CSCI_3331_HW1_ecc2cb9d",
+            "vmArgs": "--module-path C:/Users/brade/Downloads/openjfx-19_windows-x64_bin-sdk/javafx-sdk-19/lib --add-modules javafx.controls,javafx.fxml"
+        },
+        {
+            "type": "java",
             "name": "Launch Current File",
             "request": "launch",
             "mainClass": "${file}"
