@@ -3,7 +3,6 @@ import pizzaHelper.CS331Toppings;
 
 public class Baker 
 {
-
     /*public Baker()
     {
         this.numPizzas = 0;
@@ -14,7 +13,6 @@ public class Baker
     {
         CS331Pizza pizza = new CS331Pizza();
         pizza.addMushrooms();
-
         return pizza;
     }
 
@@ -32,10 +30,10 @@ public class Baker
         return pizza;
     }
 
-    /*
+    
     public String bakerUpdate()
     {
-        //return "Baker's Pizza Count: " + numPizzas;
+        return "Baker's Pizza Count: ";
     }
-    */
+    
 }

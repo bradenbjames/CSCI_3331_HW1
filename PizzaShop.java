@@ -39,9 +39,8 @@ public class PizzaShop extends PizzaShopHelper{
         Baker baker = new Baker();
         CS331Pizza pizza = baker.makeMushroom();
         displayPrice(pizza);
-        numPizzas1++;
-        System.out.println(numPizzas1);        
-        displayShopUpdate(String.valueOf(numPizzas1));
+        numPizzas1++;   
+        displayShopUpdate("Number of Pizzas: " + String.valueOf(numPizzas1));
     }
 
     /**
@@ -56,7 +55,7 @@ public class PizzaShop extends PizzaShopHelper{
         toppings.addPeppers(pizza);
         displayPrice(pizza);
         numPizzas2++;
-        displayShopUpdate(String.valueOf(numPizzas2));
+        displayShopUpdate("Number of Pizzas: " + String.valueOf(numPizzas2));
     }
 
     /**
@@ -72,7 +71,7 @@ public class PizzaShop extends PizzaShopHelper{
         toppings.addTomatoes(pizza);
         displayPrice(pizza);
         numPizzas3++;
-        displayShopUpdate(String.valueOf(numPizzas3));
+        displayShopUpdate("Number of Pizzas: " + String.valueOf(numPizzas3));
     }
 
     /**
@@ -88,6 +87,6 @@ public class PizzaShop extends PizzaShopHelper{
         toppings.addTomatoes(pizza);
         displayPrice(pizza);
         numPizzas4++;
-        displayShopUpdate(String.valueOf(numPizzas4));
+        displayShopUpdate("Number of Pizzas: " + String.valueOf(numPizzas4));
     }
 }
